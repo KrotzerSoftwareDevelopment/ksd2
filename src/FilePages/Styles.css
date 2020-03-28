@@ -1,0 +1,78 @@
+
+/*
+Navigation
+*/
+.navigation {
+    position: absolute;
+    top: 10vh;
+    right: 0vh;
+}
+.naviContainer ul  {
+    display: inline;
+}
+
+.naviContainer ul li {
+    margin-top: 1vh;
+    display: block;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(255, 246, 234);
+    padding: 1vw;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+.naviContainer ul   :hover{
+    background-color: darkgrey;
+}
+/*
+App.js
+*/
+
+.BackGround{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+/*
+HomePage
+*/
+
+.homePage {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    transform: translate3d(0vw, 0, 0);
+    transform: translate3d(-100vw, 0, 0);
+    transition: transform .3s cubic-bezier(0, .52, 0, 1);
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(5, 17, 187, 0.651);
+}
+/*
+Portfolio
+*/
+
+.Portfolio {
+    width: 70vh;
+    height: 75vh;
+    background-color: rgba(17, 105, 39, 0.74);
+}
+
+
+/*
+Footer
+*/
+
+#copyRight {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: darkslategray;
+    color:white;
+}
