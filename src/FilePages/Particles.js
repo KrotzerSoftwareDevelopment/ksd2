@@ -1,15 +1,8 @@
 import React from 'react';
-
-
-
-import './FilePages/Styles.css';
 import Particles from 'react-particles-js';
-
-
-function App() {
-  return (
-    <div className="App">
-    <Particles
+function particles () {
+rerturn (
+<Particles
     params={{
 	    "particles": {
 	        "number": {
@@ -62,20 +55,8 @@ function App() {
 	        }
 	    }
   }} ></Particles>
-    <div>
-
-
-    <div className="particles">
-    
-
-  </div>
-   
-    
-
-    </div>
-
-    </div>
-  );
+)
 }
 
-export default App;
+
+export default particles;
