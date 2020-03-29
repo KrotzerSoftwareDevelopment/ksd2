@@ -18,6 +18,11 @@ h1{
 
 h4{
     text-align: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50%;
+    padding: 2vw;
 }
 #blockStyle{
     background-color: black;
@@ -93,11 +98,8 @@ HomePage
 */
 
 .homePage {
+    overflow-y: scroll; 
     
-    scrollbar-width: 2px;
-    scrollbar-track-color: azure;
-    scrollbar-base-color: aliceblue;
-    scroll-behavior: smooth;
     padding: 4vw;
     position: absolute;
     top: 1vh;
@@ -105,7 +107,7 @@ HomePage
     float: right;
     margin-right: 10vw;
     width: 60vw;
-    height: 100vh;
+    height: 80vh;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
     border-radius: 5px;
     background-color: rgba(255, 255, 255, .15);

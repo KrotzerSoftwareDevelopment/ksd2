@@ -6,7 +6,7 @@ function Navigation() {
     <div className="navigation">
       <div className="naviContainer">
       <ul>
-      <Link to="/"><li className="logoNavi">KSD</li></Link>
+      <Link to="/"><li>KSD</li></Link>
       <Link to="/HomePage"><li>Home </li> </Link>
       <Link to="/About"><li>About</li></Link>
       <Link to="/Contact"><li>Contact</li></Link>
